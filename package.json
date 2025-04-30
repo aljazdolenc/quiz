@@ -3,11 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "quiz/node_modules/.bin/vite --port 3000",
-    "start": "quiz/node_modules/.bin/vite --port 3000",
-    "build": "quiz/node_modules/.bin/vite build && tsc",
-    "serve": "quiz/node_modules/.bin/vite preview",
-    "test": "quiz/node_modules/.bin/vitest run"
+    "dev": "vite --port 3000",
+    "start": "vite --port 3000",
+    "build": "vite build && tsc",
+    "serve": "vite preview",
+    "test": "vitest run"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.4",

@@ -10,12 +10,12 @@
 
 // Import Routes
 
-import { Route as rootRoute } from './routes/__root.tsx'
-import { Route as QuizRouteImport } from './routes/quiz/route.tsx'
-import { Route as IndexImport } from './routes'
-import { Route as QuizNewImport } from './routes/quiz/new.tsx'
-import { Route as QuizQuizIdImport } from './routes/quiz/$quizId.tsx'
-import { Route as QuizQuizIdResultsImport } from './routes/quiz/$quizId.results.tsx'
+import { Route as rootRoute } from './routes/__root'
+import { Route as QuizRouteImport } from './routes/quiz/route'
+import { Route as IndexImport } from './routes/index'
+import { Route as QuizNewImport } from './routes/quiz/new'
+import { Route as QuizQuizIdImport } from './routes/quiz/$quizId'
+import { Route as QuizQuizIdResultsImport } from './routes/quiz/$quizId.results'
 
 // Create/Update Routes
 
